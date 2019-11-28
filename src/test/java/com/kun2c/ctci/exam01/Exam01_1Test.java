@@ -1,4 +1,4 @@
-package com.kun2c.ctci.exam01.service;
+package com.kun2c.ctci.exam01;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
