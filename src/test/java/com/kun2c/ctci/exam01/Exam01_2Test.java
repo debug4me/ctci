@@ -1,6 +1,7 @@
 package com.kun2c.ctci.exam01;
 
-import org.junit.Assert;
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Test;
 
 /*
@@ -14,10 +15,10 @@ public class Exam01_2Test {
 		Exam01_2 exam = new Exam01_2();
 		
 		String result = exam.answer("ab");
-		Assert.assertEquals("ba", result);
+		assertEquals("ba", result);
 		
 		String result2 = exam.answer("abc");
-		Assert.assertEquals("cba", result2);	
+		assertEquals("cba", result2);	
 	}
 
 }

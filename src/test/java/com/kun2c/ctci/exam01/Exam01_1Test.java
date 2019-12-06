@@ -5,8 +5,6 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import com.kun2c.ctci.exam01.Exam01_1;
-
 /*
  * 1.1
  * 문자열에 포함된 문자들이 전부 유일한지를 검사하는 알고리즘을 구현하라.
