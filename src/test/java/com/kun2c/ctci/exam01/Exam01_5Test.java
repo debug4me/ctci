@@ -25,5 +25,19 @@ public class Exam01_5Test {
 		String result3 = exam.answer("aabb");
 		assertEquals("aabb", result3);
 	}
+	
+	@Test
+	public void testAnswer2() {
+		Exam01_5 exam = new Exam01_5();
+		
+		String result = exam.answer2("aabccccccccaaa");
+		assertEquals("a2b1c8a3", result);
+		
+		String result2 = exam.answer2("abcdef");
+		assertEquals("abcdef", result2);
+		
+		String result3 = exam.answer2("aabb");
+		assertEquals("aabb", result3);
+	}
 
 }
